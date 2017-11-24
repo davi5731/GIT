@@ -28,6 +28,7 @@ public class StudentSort extends javax.swing.JFrame {
         lststudents.setModel(list);//connects data to list
             
     }
+    //modified to work with ISStudents original was meant to work with integers
     public static void selectionSort(ISStudent[] a){
    for (int i = 0; i < a.length - 1; i++){
       int minIndex = findMinimum(a, i);
